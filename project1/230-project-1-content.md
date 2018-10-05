@@ -3,7 +3,7 @@
 Have you ever taken a walk through the woods at night? It's quite the experience. With the cool night air and the moonlight shining through the trees, it can be absolutely breathtaking. However, some might find the experience slightly unnerving. Afterall, you never know what's ahead in the dark, and that feeling of unease can seem overwhelming at times. To illustrate this, I have created a game where you will simply walk from left to right across a scrolling forest at night. I cannot tell you what exactly you will find on this walk, but if you are like me and enjoy a good atmosphere shrouded in the unknown, I encourage you to give it a try. So how about it, are you feeling up for a midnight stroll?
 ## About the Author
 My name is Andrew Brook, and I am a sophomore studying Game Design and Development at Rochester Institute of Technology. I specialize in game design, but I have taught myself a lot of development skills over the last few years and I am interested in making immersive (and fun) interactive experiences. I work mostly in the Unity game engine, but I have extensive experience in GameMaker Studio, Photoshop, Illustrator, After Effects, and the MonoGame C# framework.
-![alt text](../media/gamescreenshot1.png "Mockup Screenshot")
+![alt text](https://github.com/asb9599/IGME-230/blob/master/project1/media/gamescreenshot1.png "Mockup Screenshot")
 ___
 # Proposal Page
 ## I. Concept
@@ -21,9 +21,9 @@ The gameplay is simply walking from the left to the right through a parallax for
 As you continue through the game, things will change, and you should expect a randomized set of events and open yourself to the unexpected
 ## Screenshots
 Here is a mockup screenshot of the background of the game:
-![alt text](../media/spookyforestscreenshot.png "Spooky Forest Screenshot")
+![alt text](https://github.com/asb9599/IGME-230/blob/master/project1/media/spookyforestscreenshot.png "Spooky Forest Screenshot")
 Here is the animated player sprite walking:
-![alt text](../media/PlayerWalkCycle.gif "Player Walk Cycle")
+![alt text](https://github.com/asb9599/IGME-230/blob/master/project1/media/PlayerWalkCycle.gif "Player Walk Cycle")
 ___
 # Documentation Page
 ## Inspiration
