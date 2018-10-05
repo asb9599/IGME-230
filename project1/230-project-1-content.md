@@ -21,8 +21,10 @@ The gameplay is simply walking from the left to the right through a parallax for
 As you continue through the game, things will change, and you should expect a randomized set of events and open yourself to the unexpected
 ## Screenshots
 Here is a mockup screenshot of the background of the game:
+
 ![alt text](https://github.com/asb9599/IGME-230/blob/master/project1/media/spookyforestscreenshot.png "Spooky Forest Screenshot")
 Here is the animated player sprite walking:
+
 ![alt text](https://github.com/asb9599/IGME-230/blob/master/project1/media/PlayerWalkCycle.gif "Player Walk Cycle")
 ___
 # Documentation Page
