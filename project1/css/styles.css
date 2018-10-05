@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body
+{
+    background-image: url("../media/forestbackground.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/* Header */
+header
+{
+    width: 1200px;
+    height: 160px;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0 auto;
+}
+
+header h1
+{
+    font-size: 70px;
+    text-align: center;
+    color: #D2D7DF;
+    text-shadow: 5px 5px #000000;
+}
+/* Main Body */
+main
+{
+    width: 1000px; /* 1000 px */
+    height: 805px; /* 805 px */
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(84, 106, 123, 0.8); /* (84, 106, 123) */
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+
+.bodycontainer
+{
+    padding: 2%;
+}
+.bodycontainer h2
+{
+    font-size: 14px;
+    margin: 0;
+}
+.bodycontainer p, li
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#homebody h2
+{
+    font-size: 20px;
+}
+
+#homebody p
+{
+    font-size: 18px;
+}
+
+/* Navigation */
+nav ul
+{
+    margin-top: 0;
+    padding-left: 0;
+    margin-left: 0;
+    background-color: #0D1F2D;
+    color: white;
+    float: left;
+    width: 100%;
+    font-size: 25px;
+}
+
+nav ul li 
+{ 
+    display: inline; 
+    font-family: 'Press Start 2P', cursive;
+}
+
+nav ul li a
+{
+    padding: 0.5em 1em;
+    background-color: #0D1F2D;
+    color: white;
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid #fff;
+}
+
+nav ul li a:hover
+{
+    background-color: #546a7b; /* #111131 */
+    color: #fff;
+}
+
+/* https://coolors.co/0d1f2d-546a7b-9ea3b0-ffffff-d2d7df */
