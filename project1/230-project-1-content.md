@@ -1,22 +1,20 @@
-[Home Page]
+# Home Page
 ## Care for a Stroll?
 Have you ever taken a walk through the woods at night? It's quite the experience. With the cool night air and the moonlight shining through the trees, it can be absolutely breathtaking. However, some might find the experience slightly unnerving. Afterall, you never know what's ahead in the dark, and that feeling of unease can seem overwhelming at times. To illustrate this, I have created a game where you will simply walk from left to right across a scrolling forest at night. I cannot tell you what exactly you will find on this walk, but if you are like me and enjoy a good atmosphere shrouded in the unknown, I encourage you to give it a try. So how about it, are you feeling up for a midnight stroll?
-![alt text](../media/gamescreenshot1.png "Mockup Screenshot")
 ## About the Author
 My name is Andrew Brook, and I am a sophomore studying Game Design and Development at Rochester Institute of Technology. I specialize in game design, but I have taught myself a lot of development skills over the last few years and I am interested in making immersive (and fun) interactive experiences. I work mostly in the Unity game engine, but I have extensive experience in GameMaker Studio, Photoshop, Illustrator, After Effects, and the MonoGame C# framework.
+![alt text](../media/gamescreenshot1.png "Mockup Screenshot")
 ___
-[Proposal Page]
-## Concept
+# Proposal Page
+## I. Concept
 This game is like Inside or Limbo, only with crisp pixel art and a much heavier focus on environment and psychological simulation. You walk through a spooky woods at night, and some things you can't explain happen. What things you ask? Well, that's part of the adventure!
-## Genre
+## II. Genre
 The game is an exploration-based platformer, with a little bit of horror. However, unlike a lot of horror games, the game's intent is not to scare you, but more to make you feel a sense of unease.
-## Platform
-Desktop only
-## Story
+## III. Story
 The story of the game is simple: you're walking through a spooky forest that you have no recollection of entering, and no sense of direction or even time as you walk through it. The only thing you know is that there's snow on the ground and the moon is full and vibrant tonight, and it seems like a good time for a stroll.
-## Aesthetics
+## IV. Aesthetics
 The game relies on sprite-based animations and pixel art, with a dark and limited color palette.
-## Gameplay
+## V. Gameplay
 The gameplay is simply walking from the left to the right through a parallax forest, and you can expect the following controls:
 1. Use the left and right arrow keys (or the analog stick if using an Xbox controller) to move left and right
 2. Press the 'X' key (or "B" button if using an Xbox Controller) to interact, which you might have to do on occasion
@@ -27,7 +25,7 @@ Here is a mockup screenshot of the background of the game:
 Here is the animated player sprite walking:
 ![alt text](../media/PlayerWalkCycle.gif "Player Walk Cycle")
 ___
-[Documentation Page]
+# Documentation Page
 ## Inspiration
 I came up with the idea of this game because ever since I was little, I've always liked taking walks through the woods at night. While initially I did it to confront my fear of the dark at the time, I soon learned to love that feeling of walking into the woods and not knowing what to expect. It was always a journey into the unknown for me, and somehow I always found enjoyment and comfort in that.I thought about it, and decided that it would be a fun idea to make a game where you just walk through a scrolling parallax forest. After thinking about it further, I came up with a few ways that I could make it a little more interesting and at some point it became a lot creepier and I just decided, hey, let me see how I can keep people on the edge of their seat.
 ## Assets
