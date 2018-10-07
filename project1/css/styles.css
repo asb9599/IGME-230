@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
 body
 {
-    background-image: url("../media/forestbackground.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
+    background: url("../media/forestbackground.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
+
 
 /* Header */
 header
@@ -20,8 +23,8 @@ header h1
 {
     font-size: 70px;
     text-align: center;
-    color: #D2D7DF;
-    text-shadow: 5px 5px #000000;
+    color: white;
+    text-shadow: 5px 5px black, 0 0 25px #3076CC, 0 0 5px #3076CC; /* #3DC4FF */
 }
 /* Main Body */
 main
@@ -31,36 +34,9 @@ main
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(84, 106, 123, 0.8); /* (84, 106, 123) */
+    background-color: rgba(84, 106, 123, 0.9); /* (84, 106, 123) */
     font-family: 'Press Start 2P', cursive;
     color: white;
-}
-
-.bodycontainer
-{
-    padding: 2%;
-}
-.bodycontainer h2
-{
-    font-size: 14px;
-    margin: 0;
-}
-.bodycontainer p, li
-{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-}
-
-#homebody h2
-{
-    font-size: 20px;
-}
-
-#homebody p
-{
-    font-size: 18px;
 }
 
 /* Navigation */
@@ -98,4 +74,145 @@ nav ul li a:hover
     color: #fff;
 }
 
+/* Body Container for Proposal and Documentation Page */
+.bodycontainer
+{
+    padding: 2%;
+}
+.bodycontainer h2
+{
+    font-size: 14px;
+    margin: 0;
+}
+.bodycontainer p, li
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+/* Body Container for Home Page */
+#homebody h2
+{
+    font-size: 20px;
+}
+
+#homebody p
+{
+    font-size: 18px;
+}
+
+#homebody img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Proposal Page Images */
+#forestimage, playerwalkcycle
+{
+    float: left;
+    margin-top: 1%;
+    padding: 1px;
+    
+}
+
+/* Link Styling */
+.bodycontainer a:link
+{
+    color: #3077CC;
+}
+.bodycontainer a:hover
+{
+    color: #FFD12B;
+}
+.bodycontainer a:active
+{
+    color: #FFAD2B;
+}
+.bodycontainer a:visited
+{
+    color: #4B3BD2;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 480px) 
+{
+    body
+    {
+        width: 100%;
+    }
+    /* Header */
+    header
+    {
+        width: 90%;
+        height: 10%;
+    }
+    header h1
+    {
+        font-size: 40px;
+    }
+    /* Main Content Wrapper */
+    main
+    {
+        width: 90%;
+        height: 90%;
+        margin: 0 auto;
+    }
+    /* Body Container for Home Page */
+    #homebody h2
+    {
+        font-size: 14px;
+    }
+    #homebody p
+    {
+        font-size: 12px;
+    }
+    #homebody img
+    {
+        max-width: 100%;
+        height: auto;
+    }
+    /* Body Container for Proposal and Documentation Pages */
+    .bodycontainer h2
+    {
+        font-size: 14px;
+    }
+    .bodycontainer p, li, a
+    {
+        font-size: 12px;
+    }
+    .bodycontainer li a
+    {
+        width: 90%;
+    }
+    /* Proposal Page Images */
+    #forestimage, playerwalkcycle
+    {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    /* Navigation */
+    nav ul
+    {
+        margin: 0 0 10px;
+    }
+    nav ul li
+    {
+        display: block; 
+    }
+    nav ul li a
+    {
+        border-right: none;
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid #fff;
+        width: 90%;
+    }
+
+    
+} 
 /* https://coolors.co/0d1f2d-546a7b-9ea3b0-ffffff-d2d7df */
