@@ -6,6 +6,9 @@
 body
 {
     background: url("../media/forestbackground.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -92,6 +95,11 @@ nav ul li a:hover
     padding-bottom: 1px;
 }
 
+.bodycontainer ol li {
+    word-wrap: break-word;
+}
+}
+
 /* Body Container for Home Page */
 #homebody h2
 {
@@ -108,6 +116,7 @@ nav ul li a:hover
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2%;
 }
 
 /* Proposal Page Images */
@@ -115,15 +124,22 @@ nav ul li a:hover
 {
     float: left;
     margin-top: 1%;
+    margin-bottom: 2%;
     padding: 1px;
     
 }
 
 /* Link Styling */
+2
 .bodycontainer a:link
 {
-    color: #3077CC;
+    color: #3076CC;
 }
+.bodycontainer a:visited
+{
+    color: #D379AD; /* D424D8 */
+}
+
 .bodycontainer a:hover
 {
     color: #FFD12B;
@@ -132,10 +148,7 @@ nav ul li a:hover
 {
     color: #FFAD2B;
 }
-.bodycontainer a:visited
-{
-    color: #4B3BD2;
-}
+
 
 /* Responsive Design */
 @media screen and (max-width: 480px) 
